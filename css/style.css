@@ -1,10 +1,18 @@
 /* Основные цвета */
+/* Основной цвет текста #212121*/
+/* Вторичный цвет текста  #757575*/
+/* Цвет акцента #2196f3*/
+/* Основной цвет страницы #ffffff*/
+/* Цвет фона футера #2f303a*/
+/* Дополнительный черный цвет  #000000*/
 
 :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --main-white-color: #ffffff;
+  --footer-bg-color: #2f303a;
+  --standart-black: #000000;
 }
 
 body {
@@ -74,7 +82,7 @@ body {
 }
 
 .second-part {
-  color: black;
+  color: var(--standart-black);
 }
 
 .second-part-footer {
@@ -120,7 +128,7 @@ body {
 
 /* Костыль для видимости цвета текста в футере */
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-bg-color);
 }
 /* End костыль */
 
