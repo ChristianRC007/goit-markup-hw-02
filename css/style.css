@@ -71,3 +71,25 @@ body {
 .second-part {
   color: black;
 }
+
+.second-part-footer {
+  color: var(--main-white-color);
+}
+/* Костыль для видимости цвета текста в футере */
+footer {
+  background-color: #2f303a;
+}
+/* End костыль */
+
+.adress {
+  color: var(--main-white-color);
+  font-size: 14px;
+  line-height: 1.71px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  padding: 5px;
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
