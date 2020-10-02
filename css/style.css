@@ -135,3 +135,20 @@ footer {
 .contact {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Визуал текста для Портфолио */
+
+.projects h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects p {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
