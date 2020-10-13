@@ -126,9 +126,23 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /* Костыль для видимости цвета текста в футере */
 footer {
   background-color: var(--footer-bg-color);
+  padding: 5px;
 }
 /* End костыль */
 
@@ -143,6 +157,12 @@ footer {
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
 
 /* Визуал текста для Портфолио */
